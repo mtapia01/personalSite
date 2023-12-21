@@ -1,5 +1,5 @@
 import './css/App.css';
-import * as React from 'react';
+import React, {useEffect} from 'react';
 import { styled } from '@mui/material/styles';
 import Divider from '@mui/material/Divider';
 import Chip from '@mui/material/Chip';
@@ -13,6 +13,9 @@ const primary = {
   };
 
 function Projects() {
+    useEffect(() => {
+        document.title = 'Michael Tapia';
+      }, []);
     return(
         <div className="App">
             <header className="App-header">
@@ -122,7 +125,7 @@ function Projects() {
                 </h4>
                 <p className='padding'>
                     A semester long project where I took the role as a Full Stack Engineer.
-                    Developed features like Sign Up/Log in, discussion board, and a Hangman game
+                    Developed features like Sign Up/Log in, discussion board, and a Hangman game.
                     <br></br><br></br>
                     Software Stack: JavaScript, Python, HTML
                 </p>

@@ -1,6 +1,6 @@
 
 import './css/App.css';
-import * as React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from './navbar';
 import Footer from './footer'
 import snowImage from './images/snowboarding.jpg';
@@ -48,6 +48,9 @@ const itemData = [
 ]
 
 function App() {
+  useEffect(() => {
+    document.title = 'Michael Tapia';
+  }, []);
   return (
     <div className="App">
       <header className="App-header">
@@ -55,7 +58,7 @@ function App() {
       </header>
       <body className='App-body'>
 
-        <h1 className='center'>Hi! I am Michael <br /> </h1> 
+        <h1 className='center'>Hi! I'm Michael <br /> </h1> 
         <p className='center'>
           I am currently a Computer Science major at University of California: Merced
         </p>
