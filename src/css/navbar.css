@@ -35,3 +35,7 @@ nav {
   p{
     color: #F5EDF0;
   }
+  .navTitle{
+    color: #F5EDF0;
+    font-style: italic;
+  }

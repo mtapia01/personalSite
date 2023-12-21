@@ -6,7 +6,7 @@ import "./css/navbar.css"
 const Navbar = () => {
   return (
     <nav>
-      
+      <h2 className='navTitle'>Michael Tapia</h2>
       <ul>
         <li>
           <Link to="/">Home</Link>
