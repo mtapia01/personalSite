@@ -5,8 +5,12 @@ import './css/index.css';
 import App from './App';
 import Projects from './Projects';
 import reportWebVitals from './reportWebVitals';
+import ProjectCard from './components/Card.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// useEffect(() => {
+  document.title = 'Michael Tapia';
+// }, []);
 root.render(
   <Router>
     <Routes>

@@ -1,21 +1,12 @@
 import './css/App.css';
-import React, {useEffect} from 'react';
-import { styled } from '@mui/material/styles';
+import React from 'react';
 import Divider from '@mui/material/Divider';
 import Chip from '@mui/material/Chip';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Footer from './footer'
 import Navbar from './navbar';
 
-const primary = {
-    main: '#27272a',
-    light: '#D1CCDC',
-  };
-
 function Projects() {
-    useEffect(() => {
-        document.title = 'Michael Tapia';
-      }, []);
     return(
         <div className="App">
             <header className="App-header">
@@ -30,7 +21,7 @@ function Projects() {
                 <Chip color='info'  variant="outline" label="2023" />
             </Divider>
 
-            <div>
+            <div id='fitsagram'>
                 <h4 >
                 Fitsagram
                 </h4>
@@ -38,9 +29,6 @@ function Projects() {
                 <p className='padding'>
                     Fitsagram provides users with a dynamic platform for sharing and connecting. 
                     Users can post pictures, follow others to curate a personalized feed from their updates, and engage with content by liking posts or commenting. 
-
-                {/* Students can easily log in, view classes, explore available courses, and enroll in open classes. 
-                Teachers manage classes, enrolled and grades, while the admin oversees all aspects ensuring data control. */}
                 <br></br> <br></br>
                 Software Stack: JavaScript, Python, SQLite, Flask, HTML
                 </p>
@@ -63,7 +51,7 @@ function Projects() {
                 </p>
 
             </div>
-            <div>
+            <div id='stu-enrollment'>
                 <h4>
                 Student Enrollment Web App
 
@@ -83,7 +71,7 @@ function Projects() {
                 </a>
 
             </div>
-            <div>
+            <div id='game'>
                 <h4>
                 Animal Fight Club
                 </h4>
@@ -102,7 +90,7 @@ function Projects() {
             <Divider>
                 <Chip color='info'  variant="outline" label="2022" />
             </Divider>
-            <div>
+            <div id='course-monitor'>
                 <h4>
                 Course Monitor
                 </h4>
@@ -113,7 +101,6 @@ function Projects() {
                     <br></br><br></br>
                     Software Stack: JavaScript, Google API
                 </p>
-                {/* https://github.com/mtapia01/courseMonitor */}
                 <a className='padding' href='https://github.com/mtapia01/courseMonitor'>
                     <GitHubIcon fontSize='large' />
                 </a>
