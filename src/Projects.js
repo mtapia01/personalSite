@@ -21,7 +21,7 @@ function Projects() {
                 <Chip color='info'  variant="outline" label="2023" />
             </Divider>
 
-            <div id='fitsagram'>
+            <div id='fitsagram' href='fitsagram'>
                 <h4 >
                 Fitsagram
                 </h4>
@@ -71,7 +71,7 @@ function Projects() {
                 </a>
 
             </div>
-            <div id='game'>
+            <div id='game' >
                 <h4>
                 Animal Fight Club
                 </h4>

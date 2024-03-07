@@ -66,7 +66,10 @@ function App() {
           </a>
         </h2> 
         <Grid container rowSpacing={3} rowGap={5} columnSpacing={-4}>
-        <ProjectCard title="Fitsagram" body="Fitsagram provides users with a dynamic platform for sharing and connecting" link="fitsagram" />
+        <ProjectCard 
+        title="Fitsagram" 
+        body="Fitsagram provides users with a dynamic platform for sharing and connecting" 
+        link="/Projects#fitsagram" />
         <ProjectCard title="Animal Fight Club" body="Pokemon inspired game, implementing core game logic to designing classes for drawing elements and defining behaviors of in-game entities." link="/Projects#game" />
         <ProjectCard title="Student Enrollment Web App" body="The Student Enrollment Web App streamlines student and teacher interactions. " link="/Projects#stu-enrollment" />
         </Grid>

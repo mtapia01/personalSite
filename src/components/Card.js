@@ -18,8 +18,9 @@ const ProjectCard = (props) => {
                 </Typography>
                 <br></br>
                 <Typography sx={{color: "#262B30", height: 'calc(100% / 3)'}}>
-                    <Link to={link}></Link>
-                    <Button href={link} size="small"> Learn More </Button>
+                    {/* <Link to={link}></Link> */}
+                    <a href={link}> <Button  size="small"> Learn More </Button></a>
+                    
                 </Typography>
             </Card>
         </Box>
